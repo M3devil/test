@@ -9,7 +9,7 @@
   <version>1.0-SNAPSHOT</version>
   <packaging>war</packaging>
 
-  <name>Spring Maven Webapp</name>
+  <name>This is Spring Web Application,I want to merge this branch</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
