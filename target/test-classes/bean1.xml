@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+                            http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd
+                               http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+<!--    <context:component-scan base-package="com.study.Spring5" use-default-filters="false">-->
+<!--        <context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"/>-->
+<!--        <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Service"/>-->
+<!--    </context:component-scan>-->
+
+
+    <!--    <context:component-scan base-package="com.study.Spring5"/>-->
+
+<!--    <context:property-placeholder location="classpath:c3p0.properties"/>-->
+
+<!--    <bean id="dataSource" class="com.mchange.v2.c3p0.jboss.C3P0PooledDataSource">-->
+<!--        <property name="driverClass" value="${jdbc.driver}"/>-->
+<!--        <property name="jdbcUrl" value="${jdbc.url}"/>-->
+<!--        <property name="user" value="${jdbc.username}"/>-->
+<!--        <property name="password" value="${jdbc.password}"/>-->
+<!--    </bean>-->
+
+<!--    <bean id="user1" class="com.study.Spring5.bean.User" p:username="小谭"/>-->
+<!--    <util:list id="list" value-type="com.study.Spring5.bean.User">-->
+<!--        <ref bean="user1"/>-->
+<!--    </util:list>-->
+
+<!--    <bean id="java" class="com.study.Spring5.bean.Java">-->
+<!--        <property name="things" ref="list"/>-->
+<!--    </bean>-->
+
+<!--    <bean id="user" class="com.study.Spring5.bean.User">-->
+<!--        <property name="username" value="小天"/>-->
+<!--    </bean>-->
+
+<!--    <bean id="users" class="com.study.Spring5.bean.User">-->
+<!--        <constructor-arg name="username" value="小虎"/>-->
+<!--        <constructor-arg name="password" value="123"/>-->
+<!--&lt;!&ndash;        <constructor-arg index="0" value="小虎"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        <constructor-arg index="1" value="123"/>&ndash;&gt;-->
+<!--    </bean>-->
+
+<!--    <bean id="userSa" class="com.study.Spring5.bean.User" p:username="小龙"/>-->
+
+<!--    <bean id="userSs" class="com.study.Spring5.bean.User">-->
+<!--        <property name="username">-->
+<!--            <value><![CDATA[<<南京>>]]></value>-->
+<!--        </property>-->
+<!--    </bean>-->
+
+
+<!--    <bean id="userDao" class="com.study.Spring5.dao.UserDaoImp"/>-->
+<!--    <bean id="userService" class="com.study.Spring5.service.UserService">-->
+<!--        <property name="userDao" ref="userDao"/>-->
+<!--    </bean>-->
+
+<!--    <bean id="pet" class="com.study.Spring5.bean.Pet">-->
+<!--        <property name="name" value="dog"/>-->
+<!--        <property name="age" value="5"/>-->
+<!--        <property name="owner.name" value="小小"/>-->
+<!--    </bean>-->
+
+
+<!--    <bean id="java" class="com.study.Spring5.bean.Java">-->
+<!--        <property name="sayings">-->
+<!--            <array>-->
+<!--                <value>爪洼</value>-->
+<!--                <value>咖啡</value>-->
+<!--            </array>-->
+<!--        </property>-->
+
+<!--        <property name="things">-->
+<!--            <list>-->
+<!--                <value>JavaSE</value>-->
+<!--                <value>JavaEE</value>-->
+<!--            </list>-->
+<!--        </property>-->
+
+<!--        <property name="ints">-->
+<!--            <set>-->
+<!--                <value>5</value>-->
+<!--                <value>8</value>-->
+<!--            </set>-->
+<!--        </property>-->
+
+<!--        <property name="techs">-->
+<!--            <map>-->
+<!--                <entry key="Spring" value="Bean开发框架"/>-->
+<!--                <entry key="SpringMVC" value="Web开发框架"/>-->
+<!--            </map>-->
+<!--        </property>-->
+<!--    </bean>-->
+
+
+
+<!--    <bean id="java" class="com.study.Spring5.bean.Java">-->
+<!--        <property name="things">-->
+<!--            <list>-->
+<!--                <ref bean="user1"/>-->
+<!--                <ref bean="user2"/>-->
+<!--            </list>-->
+<!--        </property>-->
+<!--    </bean>-->
+
+<!--    <bean id="user1" class="com.study.Spring5.bean.User" p:username="小龙"/>-->
+<!--    <bean id="user2" class="com.study.Spring5.bean.User" p:username="小域"/>-->
+
+<!--    <bean id="myBean" class="com.study.Spring5.factoryBean.MyBean"/>-->
+
+<!--    <bean id="student" class="com.study.Spring5.autowire.Student" autowire="byType"/>-->
+<!--    <bean id="course" class="com.study.Spring5.autowire.Course"/>-->
+
+
+
+</beans>
